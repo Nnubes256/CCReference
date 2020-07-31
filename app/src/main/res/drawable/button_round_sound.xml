@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="50dp" android:width="50dp">
+        <ripple xmlns:android="http://schemas.android.com/apk/res/android"
+            android:color="?attr/colorControlHighlight">
+            <item>
+                <shape android:shape="oval">
+                    <solid android:color="?attr/colorButtonNormal" />
+                </shape>
+            </item>
+        </ripple>
+    </item>
+    <item android:drawable="@drawable/ic_speaker_icon" android:height="35dp" android:width="35dp" android:gravity="center"/>
+</layer-list>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootFrame"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:focusable="false">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutParent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:focusable="auto"
+        tools:ignore="UselessParent">
+
+        <!-- this is the collapsed layout -->
+        <LinearLayout
+            android:id="@+id/floating_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#4D000000"
+            android:orientation="vertical"
+            android:visibility="gone"></LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/layoutCollapsed"
+            android:layout_width="70dp"
+            android:layout_height="72dp"
+            android:animateLayoutChanges="true"
+            android:background="@drawable/floating_widget_button"
+            android:clickable="false"
+            android:focusable="true"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/collapsed_iv"
+                    android:layout_width="45dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/desc_enemy_hedgehag_icon"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <ImageView
+                android:id="@+id/buttonClose"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="45dp"
+                android:background="@android:drawable/ic_menu_close_clear_cancel" />
+        </RelativeLayout>
+
+        <!-- this is the expanded layout -->
+        <LinearLayout
+            android:id="@+id/layoutExpanded"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="90dp"
+            android:animateLayoutChanges="true"
+            android:background="@drawable/floating_widget_expanded_bg"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:visibility="gone">
+
+            <ScrollView
+                android:id="@+id/baseScrollView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

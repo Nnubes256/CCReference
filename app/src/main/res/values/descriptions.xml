@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="desc_enemy_hedgehag_name">Hedgehag</string>
+    <drawable name="desc_enemy_hedgehag_icon">@drawable/index_enemies_icon</drawable>
+    <string name="desc_enemy_hedgehag_summary">This large hedgehog creature can usually be found in packs of up to 20. Normally it is peaceful but when provoked it will use its sharp needles to attack its predator.
+        \nNo one really knows why it was named Hedgehag. Some say it was a typo when the enemy was first named. Others say it stirs from its violent nature when provoked in packs. It\'s a mystery.
+        \nAccording to some players defeating multiple Hedgehags in a certain area of Autumn\'s Rise will lead to a rare event.</string>
+    <string name="desc_enemy_hedgehag_hp">286</string>
+    <string name="desc_enemy_hedgehag_attack">30</string>
+    <string name="desc_enemy_hedgehag_defense">31</string>
+    <string name="desc_enemy_hedgehag_focus">26</string>
+    <string name="desc_enemy_hedgehag_booster_hp">10560</string>
+    <string name="desc_enemy_hedgehag_booster_attack">327</string>
+    <string name="desc_enemy_hedgehag_booster_defense">338</string>
+    <string name="desc_enemy_hedgehag_booster_focus">283</string>
+    <string name="desc_enemy_hedgehag_description">The Hedgehag is a small, four-legged creature with dark grey skin and a back covered in brown spines.
+\nOnce engaged in combat, Hedgehags will attempt to follow and swarm Lea. They have a single attack that they are able to use: a dash attack, in which they roll straight at Lea, damaging her on contact. The attack is led by a brief period of spinning during which the hedgehog takes reduced damage. They are able to jump and climb as well as Lea. Perfect Guarding one of their attacks will briefly stun them and cause them to take increased damage.</string>
+    <string-array name="desc_enemy_hedgehag_soundnames">
+        <item>Roll (primary attack)</item>
+    </string-array>
+    <string-array name="desc_enemy_hedgehag_soundpaths">
+        <item>roll</item>
+    </string-array>
+    <string name="desc_item_sandwich_name">Sandwich</string>
+    <drawable name="desc_item_sandwich_icon">@drawable/consumable_sandwich</drawable>
+    <string name="desc_item_sandwich_summary">A simple lunch for travels. Heals 15% of max HP.</string>
+    <string name="desc_item_sandwich_stats">Effects:\n  - HP +15%\nCan be traded.\nSell price: 50 credits.</string>
+    <string name="desc_item_sandwich_description">How to find:\n  - Sold by Rookie\'s Best in Rookie Harbor for 100 credits\n  - Sold by Tara\'s Shop in Rookie Harbor for 2500 credits\n  - Sold by Bergen Provisions in Bergen Village for 100 credits\n  - Sold by Baki Oasis in Ba\'kii Kum for 100 credits\n  - Sold by Vermillion Consumables in Vermillion Wasteland for 100 credits\n  - Sold by vending machines in Basin Keep for 100 credits\n  - Sold by Items N\' Goods in Basin Keep for 100 credits\n  - Sold by Good Items in Sapphire Ridge for 100 credits\n  - Sold by Rhombus Items in Rhombus Square for 100 credits\n  - Find x3 in chest in Rhombus Dungeon\n  - Find x5 in chest in Autumn\'s Rise\n  - Dropped by Hedgehag (high-rank)\n  - Reward for the Round and Round quest in Autumn\'s Rise\n  - Reward for the Round and Round 2 quest in Bergen Trail</string>
+</resources>

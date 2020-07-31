@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group >
+        <item
+            android:id="@+id/showBoosterStats"
+            android:checkable="true"
+            android:enabled="true"
+            android:title="@string/enemy_menu_show_booster_stats_label"
+            android:visible="true" />
+    </group>
+    <item
+        android:id="@+id/updateDataItem"
+        android:title="@string/menu_update_data_item" />
+    <item
+        android:id="@+id/aboutItem"
+        android:title="@string/toolbar_menu_about" />
+</menu>
